@@ -47,6 +47,6 @@ git -C /opt/ansible submodule update --init --recursive
 
 EOF
 
-chmod u+x /usr/bin/ansible-update
+chmod a+x /usr/bin/ansible-update
 
 echo "=================================================="
